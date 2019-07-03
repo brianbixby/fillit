@@ -49,5 +49,5 @@ CD into it and build the executable:
 	make
 
 Run the test files
-
-  ./fillit ./tests/valid_0
+	
+	./fillit ./tests/valid_0
