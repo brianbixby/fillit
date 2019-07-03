@@ -36,3 +36,18 @@ To come up with an algorithm to solve the board, I tried manually solving a few 
 2. If the board is full and a solution has not been found, undo the last piece placed on the board and try a different position for it. Repeat until all possible positions for all tetromino pieces have been tried.
 
 3. If all possible solutions on a board have been tried, increase the size of the board and start over with placing the first tetromino. Note that the board starting size = sqrt(# of tetrominoes * 4 characters per tetromino).
+
+# How do I use it?
+
+Alright, so first of all, download/clone this repo:
+
+	git clone https://github.com/brianbixby/fillit.git fillit
+	
+CD into it and build the executable:
+	
+	cd fillit
+	make
+
+Run the test files
+
+  ./fillit ./tests/valid_0
